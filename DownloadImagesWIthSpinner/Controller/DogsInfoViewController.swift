@@ -51,6 +51,7 @@ extension DogsInfoViewController: UICollectionViewDelegate,UICollectionViewDataS
     }
 }
 
+// Reusable for download images from url strings
 extension UIImageView{
     func downloadImage(from url: URL){
         let spinner = UIActivityIndicatorView(style: .medium)
